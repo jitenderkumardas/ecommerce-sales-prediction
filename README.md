@@ -148,3 +148,44 @@ Accurate forecasts improve:
 - Deploy model as an API
 - Build a dashboard for real-time sales forecasting
 - Integrate external signals (weather, economic indicators)
+
+---
+
+# 📂 Dataset
+
+This project uses the **Store Sales – Time Series Forecasting dataset** available on Kaggle.
+
+🔗 Dataset Link:  
+https://www.kaggle.com/competitions/store-sales-time-series-forecasting/data
+
+The dataset is based on sales data from **Corporación Favorita**, a large grocery retailer in Ecuador. It includes historical sales data for thousands of products across multiple stores and dates, along with additional factors like promotions, oil prices, holidays, and store metadata. :contentReference[oaicite:0]{index=0}
+
+### Main Files in the Dataset
+
+- **train.csv** – Historical training data including `date`, `store_nbr`, `family`, `sales`, and `onpromotion`
+- **test.csv** – Future dates where sales must be predicted
+- **stores.csv** – Metadata about stores (city, state, type, cluster)
+- **oil.csv** – Daily oil prices
+- **holidays_events.csv** – Holiday and event information
+
+These datasets are combined and engineered to create predictive features used in the machine learning models.
+
+---
+
+# 💡 More Similar Data Analytics Project Ideas
+
+If you're interested in exploring more **advanced data analytics and machine learning projects**, check out this curated list:
+
+🔗 https://www.upgrad.com/blog/data-analytics-project-ideas-topics/#20-Best-Data-Analytics-Projects-For-2026:-Advance-Level/
+
+This resource contains dozens of project ideas covering areas such as:
+
+- Customer churn prediction
+- Credit risk modeling
+- Fraud detection systems
+- Recommendation systems
+- Sentiment analysis
+- Supply chain analytics
+- Demand forecasting
+
+Working on such projects helps develop skills in **data preprocessing, machine learning modeling, feature engineering, and business analytics**, which are essential for modern data analytics roles.
